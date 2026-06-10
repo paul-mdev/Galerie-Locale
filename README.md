@@ -10,6 +10,9 @@ Application web minimaliste pour parcourir des images stockées dans le dossier 
 - La grille est responsive, respecte le format réel des images, et l'image s'ouvre en plein écran au clic.
 - L'application reste accessible en local sur PC et sur mobile via le même réseau.
 - Un bouton permet d’afficher ou masquer les détails comme le nom et la date.
+- Une tierlist persistante classe les images en `S`, `A`, `B`, `C` ou sans catégorie.
+- Le classement est sauvegardé localement dans `.image-tier-state.json`.
+- Si deux fichiers ont le même nom, le classement est bloqué pour ces images et un avertissement s’affiche.
 
 ## Démarrage
 
